@@ -1,44 +1,57 @@
 * {
-  font-family: "Roboto", sans-serif;
-  font-family: "Rubik Glitch", system-ui;
+  font-family: "Rubik Maps", system-ui;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
 
+.modoResponsiv {
+  display: grid;
+}
+
 /*ENCABEZADO*/
 
-.contenedor{
+.contenedor {
   background-image: url(imagenes/logo2.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 348px;
   width: 100%;
 }
+
 .inicio-header {
   padding: 5px;
   background-color: rgb(79, 85, 59);
   color: white;
+  font-size: 25px;
 }
+
 .inicio-header:hover {
   color: black;
 }
-.btns-navegacion{
+
+.btns-navegacion {
   margin-left: 40px;
   margin-top: 20px;
 }
 
 .nav-item {
   margin-right: 10px;
+  margin-bottom: 10px;
 }
+
+.texto-barra {
+  color: white;
+}
+
 .iconos {
   font-size: 35px;
   color: rgb(79, 85, 59);
   margin-left: 20px;
 }
+
 .columna-iconos {
   margin-top: 15px;
   text-align: right;
@@ -46,17 +59,8 @@
 }
 
 /*BARRA DE NAVEGACION*/
-.temp{
+.temp {
   background-color: black;
-}
-@font-face {
-  font-family: "ThunderboldDemo";
-  src: url(/fuentes/ThunderboldDemo.otf);
-}
-.logo {
-  font-family: "ThunderboldDemo";
-  font-size: 50px;
-  margin-top: 10px;
 }
 
 .barra {
@@ -64,101 +68,116 @@
   color: white;
   border-radius: 10px;
   font-size: 25px;
+  margin-top: 20px;
 }
+
 .boton-buscar {
   border: 2px solid black;
   color: black;
 }
+
 .boton-buscar:hover {
   background-color: black;
   border: 2px solid white;
 }
-@media only screen and(max-width: 991px){
-  .imagen1{
+
+@media only screen and(max-width: 991px) {
+  .imagen1 {
     width: 300;
-    height:465 ;
+    height: 465;
   }
 }
-@media only screen and(max-width: 767px){
-  .imagen1{
+
+@media only screen and(max-width: 767px) {
+  .imagen1 {
     width: 200;
-    height:365 ;
+    height: 365;
   }
 }
+
 /*SLOGAN*/
-.slogan{
+.slogan {
   background-image: url(imagenes/fondo.jpg);
   text-align: center;
   color: white;
   padding: 30px;
 }
-.slogan-text{
+
+.slogan-text {
   font-size: 50px;
   letter-spacing: 4px;
   word-spacing: 20px;
 }
+
 /*CAJA MULTIMEDIA*/
-.nuevo-div{
+.nuevo-div {
   background-image: url(imagenes/fondo.jpg);
 }
-.flex-container{
+
+.flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin:0 auto;
+  margin: 0 auto;
 }
-.caja{
+
+.caja {
   border: 1px solid white;
   margin: 5px;
   margin-left: 25px;
 }
-.slide{
+
+.slide {
   margin: auto;
-  width: 420px; 
+  width: 420px;
 }
-.slide video{
+
+.slide video {
   height: 85vh;
 }
 
 /*PIE DE PAGINA*/
-.footer{
+.footer {
   background-image: url(imagenes/fondo.jpg);
   margin-block-end: auto;
 }
-.footer-row{
+
+.footer-row {
   display: flex;
   flex-wrap: wrap;
 }
-.footer-links{
+
+.footer-links {
   width: 25%;
   padding: 0 15px;
   margin-top: 80px;
 }
-.footer-links h4{
+
+.footer-links h4 {
   font-size: 20px;
   color: white;
   margin-bottom: 25px;
   font-weight: 500;
-  border-bottom: 2px solid rgb(79, 85, 59); 
-  padding-bottom:10px ;
+  border-bottom: 2px solid rgb(79, 85, 59);
+  padding-bottom: 10px;
   display: inline-block;
-
 }
-.footer-links ul li a{
+
+.footer-links ul li a {
   font-size: 18px;
   text-decoration: none;
   color: white;
   display: block;
   margin-bottom: 15px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
-.footer-links ul li a:hover{
+.footer-links ul li a:hover {
   color: rgb(79, 85, 59);
   padding-left: 6px;
 }
 
-.social-link a{
+.social-link a {
   display: inline-block;
   min-height: 40px;
   width: 40px;
@@ -168,21 +187,32 @@
   line-height: 40px;
   border-radius: 50%;
   color: white;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
+}
 
-}
-.social-link a:hover{
+.social-link a:hover {
   background-color: gray;
-  
 }
-@media(max-width:991px){
-  .footer-row{
+
+@media (max-width: 991px) {
+  .footer-row {
     text-align: center;
   }
-  .footer-links{
+
+  .footer-links {
     width: 100%;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
   }
 }
 
+/*PAGINA NOSOTROS*/
+.textohistoria{
+  font-family: 'Lemon', serif;
+  padding: 20px;
+}
+
+.nosotros{
+  background-image: url(imagenes/fondo.jpg);
+  margin-block-end: auto;
+}
 

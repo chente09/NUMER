@@ -22,6 +22,7 @@
   width: 100%;
 }
 
+
 .inicio-header {
   padding: 5px;
   background-color: rgb(79, 85, 59);
@@ -92,19 +93,6 @@
   border: 2px solid white;
 }
 
-@media only screen and(max-width: 991px) {
-  .imagen1 {
-    width: 300;
-    height: 465;
-  }
-}
-
-@media only screen and(max-width: 767px) {
-  .imagen1 {
-    width: 200;
-    height: 365;
-  }
-}
 
 /*SLOGAN*/
 .slogan {
@@ -142,10 +130,25 @@
   margin: auto;
   width: 420px;
 }
-
 .slide video {
-  height: 85vh;
+  height: 560px;
 }
+@media (max-width: 576px) {
+  .contenedor{
+    background-image: url(imagenes/logo1.png);
+    width: 100%;
+    }
+  .slide {
+    margin: auto;
+    width: 100;
+  }
+  .caja {
+    margin-left: 80px;
+  }
+}
+
+
+
 
 /*PIE DE PAGINA*/
 .footer {

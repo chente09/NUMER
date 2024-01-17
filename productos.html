@@ -16,10 +16,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap" rel="stylesheet" />
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet" />
   <title>TIENDA</title>
 </head>
 
-<body class="modoResponsiv">
+<body class="modoResponsiv ">
   <div class="container-fluid contenedor">
     <header>
       <div class="row">
@@ -48,51 +51,37 @@
   <hr />
   <!--CATALOGO DE PRODUCTOS-->
   <!--position-sticky (atributo para poner estatica la barra)-->
-  <div class="container-fluid top-0 position-sticky" >
-    <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+  <main class="container-fluid top-0 position-sticky navegacionTienda" >
+    <ul class="row nav mb-3 py-3 container text-center" id="pills-tab" role="tablist">
+      <li class="col nav-item" role="presentation" style="text-align: right;">
+        <a class="nav-link active barra-tienda" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
           role="tab" aria-controls="pills-home" aria-selected="true">HOMBRE</a>
       </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+      <li class="col nav-item" role="presentation" style="text-align: left;">
+        <a class="nav-link barra-tienda" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
           role="tab" aria-controls="pills-profile" aria-selected="false">MUJER</a>
       </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
-          role="tab" aria-controls="pills-contact" aria-selected="false">CARRITO</a>
+      <li class="col nav-item" role="presentation" style="text-align: right;">
+        <a class="nav-link barra-tienda" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
+          role="tab" aria-controls="pills-contact" aria-selected="false"><i class="bi bi-cart3 iconos"></i></a>
       </li>
     </ul>
-  </div>
+  </main>
   <section>
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active container" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
         tabindex="0">
-        <h2 class="h4 m-4 text-primary">LINEA MASCULINA</h2>
+        <h2 class="h4 m-4 ">LINEA MASCULINA</h2>
         <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">BARRANCO</h5>
+              <h5 class="card-title pt-2 text-center">BARRANCO</h5>
               <img src="imagenes/productos/img1.jpg" class="card-img-top" alt="imagenes">
               <div class="card-body">
-                <p class="card-text descripcion text-center">DH / ENDURO / BMX / CROSS</p>
-                <h5 class="text-primary text-center">PRECIO: <span class="precio">$ 69</span></h5>
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: <span class="precio">$ 69</span></h5>
                 <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">Añadir al Carrito</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">BARRANCO</h5>
-              <img src="imagenes/productos/img1.jpg" class="card-img-top" alt="imagenes">
-              <div class="card-body">
-                <p class="card-text descripcion text-center">DH / ENDURO / BMX / CROSS</p>
-                <h5 class="text-primary text-center">PRECIO: <span class="precio">$ 69</span></h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">Añadir al Carrito</button>
+                  <button class="btn button" style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
                 </div>
               </div>
             </div>
@@ -101,36 +90,8 @@
       </div>
       <div class="tab-pane fade show container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
         tabindex="0">
-        <h2 class="h4 m-4 text-primary">LINEA FEMENINA</h2>
-        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">BARRANCO</h5>
-              <img src="imagenes/productos/img1.jpg" class="card-img-top" alt="imagenes">
-              <div class="card-body">
-                <p class="card-text descripcion text-center">DH / ENDURO / BMX / CROSS</p>
-                <h5 class="text-primary text-center">PRECIO: <span class="precio">$ 69</span></h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">Añadir al Carrito</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 rounded" style="width: 20rem;">
-              <h5 class="card-title pt-2 text-center text-primary">BARRANCO</h5>
-              <img src="imagenes/productos/img1.jpg" class="card-img-top" alt="imagenes">
-              <div class="card-body">
-                <p class="card-text descripcion text-center">DH / ENDURO / BMX / CROSS</p>
-                <h5 class="text-primary text-center">PRECIO: <span class="precio">$ 69</span></h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">Añadir al Carrito</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2 class="h4 m-4 ">LINEA FEMENINA</h2>
+        
       </div>
       <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
         <br>
@@ -166,7 +127,7 @@
             <h3 class="itemCartToatal">Total: 0</h3>
           </div>
           <div class="col d-flex justify-content-end">
-            <button class="btn btn-success">COMPRAR</button>
+            <button class="btn btn-success botonComprar" style="color: white; background-color:  rgb(79, 85, 59);">COMPRAR</button>
           </div>
 
         </div>

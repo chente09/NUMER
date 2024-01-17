@@ -235,6 +235,10 @@
   border-radius: 20px;
 }
 /*TIENDA*/
+.navegacionTienda{
+  background-color: rgb(198, 198, 198);
+  padding-bottom: 0%;
+}
 .descripcion{
   height: 25px;
   overflow: hidden;
@@ -267,4 +271,40 @@ margin-right: 20px;
   font-weight: 700;
   margin-right: 30px;
   margin-bottom: 20px;
+}
+
+.barra-tienda {
+  font-family: 'Lemon', serif;
+  color:rgb(79, 85, 59) ;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.barra-tienda:hover{
+  color: black;
+  padding: 10px;
+}
+.h4{
+  font-family: 'Lemon', serif;
+  color: rgb(125, 123, 123);
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+.precio{
+  font-family: 'Lemon', serif;
+  color: rgb(79, 85, 59);
+}
+.card-title{
+  font-family: 'Lemon', serif;
+  color: rgb(79, 85, 59);
+}
+.card-text{
+  font-family: 'Lemon', serif;
+  color: rgb(79, 85, 59);
+}
+.barra-tienda:{
+  background-color: whit;
+}
+.botonComprar:hover{
+  background-color: white;
 }

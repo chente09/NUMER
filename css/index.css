@@ -236,8 +236,13 @@
 }
 /*TIENDA*/
 .navegacionTienda{
-  background-color: rgb(198, 198, 198);
-  padding-bottom: 0%;
+  background-color: rgb(109, 107, 107);
+  height: 60px;
+}
+@media (max-width: 576px) {
+  .navegacionTienda{
+    height: 120px;
+  }
 }
 .descripcion{
   height: 25px;
@@ -275,13 +280,14 @@ margin-right: 20px;
 
 .barra-tienda {
   font-family: 'Lemon', serif;
-  color:rgb(79, 85, 59) ;
+  color:white;
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 25px;
+  padding-top: 0%;
 }
 .barra-tienda:hover{
   color: black;
-  padding: 10px;
+  padding: 2px;
 }
 .h4{
   font-family: 'Lemon', serif;
@@ -303,8 +309,14 @@ margin-right: 20px;
   color: rgb(79, 85, 59);
 }
 .barra-tienda:{
-  background-color: whit;
+  background-color: white;
 }
 .botonComprar:hover{
   background-color: white;
+}
+.hide{
+  display: none;
+}
+.remove{
+  display: none;
 }

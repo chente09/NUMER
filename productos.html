@@ -16,8 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap" rel="stylesheet" />
-  
-  
+
+
   <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet" />
   <title>TIENDA</title>
 </head>
@@ -25,7 +25,7 @@
 <body class="modoResponsiv ">
   <div class="container-fluid contenedor ">
     <header>
-      <div class="row" >
+      <div class="row">
         <div class="col btns-navegacion">
           <ul class="nav nav-pills ">
             <li class="nav-item">
@@ -51,26 +51,28 @@
   <hr />
   <!--CATALOGO DE PRODUCTOS-->
   <!--position-sticky (atributo para poner estatica la barra)-->
-  <main class="container top-0 position-sticky navegacionTienda" >
+  <main class="container top-0 position-sticky navegacionTienda">
     <ul class="nav mb-3 py-3 container text-center" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
-        <a class="nav-link active barra-tienda" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
-          role="tab" aria-controls="pills-home" aria-selected="true">HOMBRE</a>
+        <a class="nav-link active barra-tienda" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+          type="button" role="tab" aria-controls="pills-home" aria-selected="true">HOMBRE</a>
       </li>
       <li class="nav-item" role="presentation">
-        <a class="nav-link barra-tienda" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
-          role="tab" aria-controls="pills-profile" aria-selected="false">MUJER</a>
+        <a class="nav-link barra-tienda" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="false">MUJER</a>
       </li>
       <li class="nav-item " role="presentation">
-        <a class="nav-link barra-tienda" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
-          role="tab" aria-controls="pills-contact" aria-selected="false">CARRITO</a>
+        <a class="nav-link barra-tienda" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+          type="button" role="tab" aria-controls="pills-contact" aria-selected="false">CARRITO</a>
       </li>
     </ul>
   </main>
-  <main class="alert container position-sticky top-0 text-center hide" style="font-size: 20px; color: white; background-color: rgb(79, 85, 59);" role="alert">
+  <main class="alert container position-sticky top-0 text-center hide"
+    style="font-size: 20px; color: white; background-color: rgb(79, 85, 59);" role="alert">
     ¡AÑADISTE UN NUEVO PRODUCTO AL CARRITO!
   </main>
-  <main class="alert container position-sticky top-0 text-center remove" style="font-size: 20px; color: white; background-color: rgb(125, 123, 123);" role="alert">
+  <main class="alert container position-sticky top-0 text-center remove"
+    style="font-size: 20px; color: white; background-color: rgb(125, 123, 123);" role="alert">
     ¡ELIMINASTE UN PRODUCTO!
   </main>
   <section id="seccionProductos">
@@ -84,52 +86,826 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
               <h5 class="card-title pt-2 text-center">BARRANCO-CREMA</h5>
-              <img  src="imagenes/productos/img1.jpg" class="card-img-top" alt="img1" style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <img src="imagenes/productos/masculino/barranco/img1.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
               <div class="card-body">
                 <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
                 <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
                 <div class="d-grid gap-2">
-                  <button id="btnAñadirCarrito" class="btn button" style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
                 </div>
               </div>
             </div>
           </div>
-          
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BARRANCO-GRIS</h5>
+              <img src="imagenes/productos/masculino/barranco/img2.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BARRANCO-OLIVO</h5>
+              <img src="imagenes/productos/masculino/barranco/img3.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BARRANCO-GRIS</h5>
+              <img src="imagenes/productos/masculino/barranco/img4.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BARRANCO-VINO</h5>
+              <img src="imagenes/productos/masculino/barranco/img5.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-GRIS</h5>
+              <img src="imagenes/productos/masculino/extraligero/img1.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-AZUL</h5>
+              <img src="imagenes/productos/masculino/extraligero/img2.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-GRIS</h5>
+              <img src="imagenes/productos/masculino/extraligero/img4.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-PLOMO</h5>
+              <img src="imagenes/productos/masculino/extraligero/img5.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-OLIVO</h5>
+              <img src="imagenes/productos/masculino/extraligero/img6.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">42</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-GRIS</h5>
+              <img src="imagenes/productos/masculino/extraligero/img7.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">42</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h3 class="h3 m-4 ">IMPERMEABLES</h3>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">AGUACERO-OLIVO</h5>
+              <img src="imagenes/productos/masculino/impermeable/img1.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43.75</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">AGUACERO-GRIS</h5>
+              <img src="imagenes/productos/masculino/impermeable/img2.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43.75</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">AGUACERO-OLIVO</h5>
+              <img src="imagenes/productos/masculino/impermeable/img3.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">45</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">AGUACERO-NEGRO</h5>
+              <img src="imagenes/productos/masculino/impermeable/img4.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">45</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">AGUACERO-GRIS</h5>
+              <img src="imagenes/productos/masculino/impermeable/img5.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">45</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">AGUACERO-ROJO</h5>
+              <img src="imagenes/productos/masculino/impermeable/img6.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">45</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h3 class="h3 m-4 ">MTB</h3>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-GRIS</h5>
+              <img src="imagenes/productos/masculino/mtb/img1.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ENDURO</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-OLIVO</h5>
+              <img src="imagenes/productos/masculino/mtb/img2.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ENDURO</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-AZUL</h5>
+              <img src="imagenes/productos/masculino/mtb/img3.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ENDURO</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-GRIS</h5>
+              <img src="imagenes/productos/masculino/mtb/img4.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ENDURO</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-GRIS</h5>
+              <img src="imagenes/productos/masculino/mtb/img5.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ENDURO</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-NEGRO</h5>
+              <img src="imagenes/productos/masculino/mtb/img6.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ENDURO</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-OLIVO</h5>
+              <img src="imagenes/productos/masculino/mtb/img7.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ENDURO</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h3 class="h3 m-4 ">VARIOS</h3>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">KIDS-NEGRO</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img1.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">45</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">KIDS-AZUL</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img2.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">45</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">KIDS-OLIVO</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img3.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">45</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">JERSEY</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img4.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">48.75</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BOXER</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img5.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">22</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">CASUAL</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img6.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">ELEGANTE</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">39.90</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">VARIOS</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img7.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MODELOS</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">VARIOS</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img8.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MODELOS</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">VARIOS</h5>
+              <img src="imagenes/productos/masculino/VARIOS/img9.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MODELOS</p>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
         </div>
       </div>
       <div class="tab-pane fade show container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
         tabindex="0">
         <h2 class="h4 m-4 ">LINEA FEMENINA</h2>
-        
+        <hr>
+        <h3 class="h3 m-4 ">PANTALONES</h3>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BARRANCO-CREMA</h5>
+              <img src="imagenes/productos/masculino/barranco/img1.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BARRANCO-GRIS</h5>
+              <img src="imagenes/productos/masculino/barranco/img4.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BARRANCO-VINO</h5>
+              <img src="imagenes/productos/femenino/barranco/img5.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-GRIS</h5>
+              <img src="imagenes/productos/masculino/extraligero/img1.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-AZUL </h5>
+              <img src="imagenes/productos/masculino/extraligero/img2.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-ESMERALDA</h5>
+              <img src="imagenes/productos/femenino/extraligero/img3.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-PLOMO</h5>
+              <img src="imagenes/productos/masculino/extraligero/img5.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-OLIVO</h5>
+              <img src="imagenes/productos/masculino/extraligero/img6.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">42</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-GRIS</h5>
+              <img src="imagenes/productos/masculino/extraligero/img7.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">42</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">EXT/LIGERO-CORAL</h5>
+              <img src="imagenes/productos/femenino/extraligero/img8.jpg" class="card-img-top" alt="img2"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">MTB / ENDURO / DIRT</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <hr>
+        <h3 class="h3 m-4 ">IMPERMEABLES</h3>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">IMPERMEABLE-OLIVO</h5>
+              <img src="imagenes/productos/femenino/impermeable/img1.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43.75</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">IMPERMEABLE-GRIS</h5>
+              <img src="imagenes/productos/femenino/impermeable/img2.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">VARIOS</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">43.75</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+        <hr>
+        <h3 class="h3 m-4 ">VARIOS</h3>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-NEGRO</h5>
+              <img src="imagenes/productos/femenino/mtb/img1.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / MTB</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-OLIVO</h5>
+              <img src="imagenes/productos/femenino/mtb/img2.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / MTB</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">MTB-AZUL</h5>
+              <img src="imagenes/productos/femenino/mtb/img3.png" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / MTB</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">30</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">JERSEY</h5>
+              <img src="imagenes/productos/femenino/mtb/img6.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / MTB</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">48.75</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BOXER</h5>
+              <img src="imagenes/productos/femenino/mtb/img4.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / MTB</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">20</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
+              <h5 class="card-title pt-2 text-center">BOXER</h5>
+              <img src="imagenes/productos/femenino/mtb/img5.jpg" class="card-img-top" alt="img1"
+                style="border: rgb(79, 85, 59); border-radius: 5px;">
+              <div class="card-body">
+                <p class="card-text  text-center">DH / ENDURO / MTB</p>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">22</span></h5>
+                <div class="d-grid gap-2">
+                  <button id="btnAñadirCarrito" class="btn button"
+                    style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="tab-pane fade show carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
         <br>
         <table class="table">
-          <thead >
+          <thead>
             <tr class="text-primary">
-              <th scope="col">#</th>
+              <th scope="col">N°</th>
               <th scope="col">PRODUCTOS</th>
               <th scope="col">PRECIO</th>
               <th scope="col">CANTIDAD</th>
             </tr>
           </thead>
           <tbody class="tbody">
-            
+
           </tbody>
         </table>
         <br><br>
         <div class="row mx-4">
           <div class="col">
-            <h3 class="itemCartTotal">Total: 0</h3>
+            <h3 class="itemCartTotal">Total: </h3>
           </div>
           <div class="col d-flex justify-content-end">
-            <button id="btnComprar" class="btn btn-success botonComprar" style="color: white; background-color:  rgb(79, 85, 59);">COMPRAR</button>
+            <button id="btnComprar" class="btn btn-success botonComprar"
+              style="color: white; background-color:  rgb(79, 85, 59);">COMPRAR</button>
           </div>
 
         </div>
       </div>
     </div>
-    
+
   </section>
   <hr />
   <footer class="footer">
@@ -146,27 +922,26 @@
           <h4>AYUDA</h4>
           <ul>
             <li><a href="#">PREGUNTAS</a></li>
-            <li><a href="#">COMPRAS</a></li>
-            <li><a href="#">ENVIOS</a></li>
-            <li><a href="#">PAGO</a></li>
+            <li><a href="productos.html#pills-contact-tab">COMPRAS</a></li>
+            <li><a href="productos.html#pills-contact-tab">ENVIOS</a></li>
+            <li><a href="productos.html#pills-contact-tab">PAGO</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>TIENDA</h4>
           <ul>
-            <li><a href="productos.html">HOMBRE</a></li>
-            <li><a href="productos.html">MUJER</a></li>
+            <li><a href="productos.html#pills-home">HOMBRE</a></li>
+            <li><a href="productos.html#pills-profile">MUJER</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>SIGUENOS</h4>
           <div class="social-link">
-            <a href="https://www.facebook.com/profile.php?id=100063864286282&sk=about"><i
+            <a href="https://www.facebook.com/profile.php?id=100063864286282&sk=about" target="_blank"><i
                 class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/numer.ec/"><i class="fab fa-instagram"></i></a>
-            <a
-              href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2F7Y6NNTHI5RRBN1&e=AT0q6fGFPYic83v6DVnCbpazVDZxyBChgMNSCViIiKbcQ8EnKEE_HDXO6aim-BPTQ4krymWrbzyuv9LQ9hT5iGstEb87url6wVJ1gQ"><i
-                class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/numer.ec/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2F7Y6NNTHI5RRBN1&e=AT0q6fGFPYic83v6DVnCbpazVDZxyBChgMNSCViIiKbcQ8EnKEE_HDXO6aim-BPTQ4krymWrbzyuv9LQ9hT5iGstEb87url6wVJ1gQ"
+              target="_blank"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
       </div>
@@ -175,7 +950,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-    <script src="jss/productos.js"></script>
+  <script src="jss/productos.js"></script>
 </body>
 
 </html>

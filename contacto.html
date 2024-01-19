@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tienda de ropa para deportes de AVENTURA" />
+  <meta name="keywords" content="ciclismo, montaña, treking, trail, running" />
+  <meta name="author" content="Vicente Nenger" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="productos.html" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet" />
+  <title>CONTACTO</title>
+  <link rel="icon" href="imagenes/logo.png" />
+</head>
+
+<body>
+  <div class="container-fluid contenedor">
+    <header>
+      <div class="row">
+        <div class="col btns-navegacion">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link inicio-header" aria-current="page" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link inicio-header" aria-current="page" href="nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link inicio-header" aria-current="page" href="productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link inicio-header" aria-current="page" href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col columna-iconos">
+          <a href="#" class="btn"><i class="bi bi-person-plus iconos"></i></a>
+          <a href="productos.html#pills-contact-tab" class="btn"><i class="bi bi-suit-heart iconos"> </i></a>
+          <a href="productos.html#pills-contact-tab" class="btn"><i class="bi bi-cart3 iconos"></i></a>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </header>
+  </div>
+  <hr />
+  <section class="container nosotros" style="color: white; border-radius: 10px;">
+    <br />
+    <form class="row g-3">
+      <div class="col-md-4">
+        <label for="validationServer01" class="form-label">Nombre</label>
+        <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Ingresa tus Nombres" required />
+        <div class="valid-feedback"></div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationServer02" class="form-label">Apellido</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Ingresa tus Apellidos" required />
+        <div class="valid-feedback"></div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationServerUsername" class="form-label">Nombre Usuaio</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+          <input type="text" class="form-control is-invalid" id="validationServerUsername"
+            aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Ingresa tu nombre de usario" required />
+          <div id="validationServerUsernameFeedback" class="invalid-feedback">
+            Coloca tu nombre de usario.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationServer03" class="form-label">Ciudad</label>
+        <input type="text" class="form-control is-invalid" id="validationServer03"
+          aria-describedby="validationServer03Feedback" placeholder="Ingresa tu Ciudad" required />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+          Ingresa tu Ciudad.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationServer04" class="form-label">State</label>
+        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback"
+          required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div id="validationServer04Feedback" class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationServer05" class="form-label">Zip</label>
+        <input type="text" class="form-control is-invalid" id="validationServer05"
+          aria-describedby="validationServer05Feedback" required />
+        <div id="validationServer05Feedback" class="invalid-feedback">
+          Please provide a valid zip.
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+            aria-describedby="invalidCheck3Feedback" required />
+          <label class="form-check-label" for="invalidCheck3">
+            Agree to terms and conditions
+          </label>
+          <div id="invalidCheck3Feedback" class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+  </section>
+  <hr />
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-links">
+          <h4>COMPAÑIA</h4>
+          <ul>
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="#">POLITICAS DE PRIVACIDAD</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>AYUDA</h4>
+          <ul>
+            <li><a href="#">PREGUNTAS</a></li>
+            <li><a href="productos.html#pills-contact-tab">COMPRAS</a></li>
+            <li><a href="productos.html#pills-contact-tab">ENVIOS</a></li>
+            <li><a href="productos.html#pills-contact-tab">PAGO</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>TIENDA</h4>
+          <ul>
+            <li><a href="productos.html#pills-home">HOMBRE</a></li>
+            <li><a href="productos.html#pills-profile">MUJER</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>SIGUENOS</h4>
+          <div class="social-link">
+            <a href="https://www.facebook.com/profile.php?id=100063864286282&sk=about" target="_blank"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/numer.ec/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2F7Y6NNTHI5RRBN1&e=AT0q6fGFPYic83v6DVnCbpazVDZxyBChgMNSCViIiKbcQ8EnKEE_HDXO6aim-BPTQ4krymWrbzyuv9LQ9hT5iGstEb87url6wVJ1gQ"
+              target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

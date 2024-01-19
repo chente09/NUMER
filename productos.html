@@ -23,11 +23,11 @@
 </head>
 
 <body class="modoResponsiv ">
-  <div class="container-fluid contenedor">
+  <div class="container-fluid contenedor ">
     <header>
-      <div class="row">
+      <div class="row" >
         <div class="col btns-navegacion">
-          <ul class="nav nav-pills">
+          <ul class="nav nav-pills ">
             <li class="nav-item">
               <a class="nav-link inicio-header" aria-current="page" href="index.html">INICIO</a>
             </li>
@@ -40,9 +40,9 @@
           </ul>
         </div>
         <div class="col columna-iconos">
-          <a href="cuenta_acceso" class="btn"><i class="bi bi-person-plus iconos"></i></a>
-          <a href="cuenta_acceso" class="btn"><i class="bi bi-suit-heart iconos"> </i></a>
-          <a href="cuenta_acceso" class="btn"><i class="bi bi-cart3 iconos"></i></a>
+          <a href="#" class="btn"><i class="bi bi-person-plus iconos"></i></a>
+          <a href="#" class="btn"><i class="bi bi-suit-heart iconos"> </i></a>
+          <a href="#pills-contact-tab" class="btn"><i class="bi bi-cart3 iconos"></i></a>
         </div>
       </div>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br>
@@ -51,7 +51,7 @@
   <hr />
   <!--CATALOGO DE PRODUCTOS-->
   <!--position-sticky (atributo para poner estatica la barra)-->
-  <main class="container-fluid top-0 position-sticky navegacionTienda" >
+  <main class="container top-0 position-sticky navegacionTienda" >
     <ul class="nav mb-3 py-3 container text-center" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
         <a class="nav-link active barra-tienda" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
@@ -63,7 +63,7 @@
       </li>
       <li class="nav-item " role="presentation">
         <a class="nav-link barra-tienda" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
-          role="tab" aria-controls="pills-contact" aria-selected="false">COMPRAR</a>
+          role="tab" aria-controls="pills-contact" aria-selected="false">CARRITO</a>
       </li>
     </ul>
   </main>
@@ -73,11 +73,13 @@
   <main class="alert container position-sticky top-0 text-center remove" style="font-size: 20px; color: white; background-color: rgb(125, 123, 123);" role="alert">
     ¡ELIMINASTE UN PRODUCTO!
   </main>
-  <section>
+  <section id="seccionProductos">
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active container" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
         tabindex="0">
         <h2 class="h4 m-4 ">LINEA MASCULINA</h2>
+        <hr>
+        <h3 class="h3 m-4 ">PANTALONES</h3>
         <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
           <div class="col d-flex justify-content-center mb-4">
             <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
@@ -85,26 +87,14 @@
               <img  src="imagenes/productos/img1.jpg" class="card-img-top" alt="img1" style="border: rgb(79, 85, 59); border-radius: 5px;">
               <div class="card-body">
                 <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
-                <h5 class="precio text-center">PRECIO: <span class="precio">$ 69</span></h5>
+                <h5 class="precio text-center">PRECIO: $<span class="precio">69</span></h5>
                 <div class="d-grid gap-2">
-                  <button class="btn button" style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
+                  <button id="btnAñadirCarrito" class="btn button" style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="tarjeta shadow mb-1 rounded" style="width: 20rem; border: 1px solid rgb(79, 85, 59);">
-              <h5 class="card-title pt-2 text-center">BARRANCO-GRIS</h5>
-              <img src="imagenes/productos/img2.jpg" class="card-img-top" alt="img2" style="border: rgb(79, 85, 59); border-radius: 5px;">
-              <div class="card-body">
-                <p class="card-text  text-center">DH / ENDURO / BMX / CROSS</p>
-                <h5 class="precio text-center">PRECIO: <span class="precio">$ 69</span></h5>
-                <div class="d-grid gap-2">
-                  <button class="btn button" style="color: white; background-color:  rgb(79, 85, 59);">Añadir al Carrito</button>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
       <div class="tab-pane fade show container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
@@ -115,7 +105,7 @@
       <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
         <br>
         <table class="table">
-          <thead>
+          <thead >
             <tr class="text-primary">
               <th scope="col">#</th>
               <th scope="col">PRODUCTOS</th>
@@ -133,7 +123,7 @@
             <h3 class="itemCartTotal">Total: 0</h3>
           </div>
           <div class="col d-flex justify-content-end">
-            <button class="btn btn-success botonComprar" style="color: white; background-color:  rgb(79, 85, 59);">COMPRAR</button>
+            <button id="btnComprar" class="btn btn-success botonComprar" style="color: white; background-color:  rgb(79, 85, 59);">COMPRAR</button>
           </div>
 
         </div>

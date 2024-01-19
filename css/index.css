@@ -236,8 +236,12 @@
 }
 /*TIENDA*/
 .navegacionTienda{
-  background-color: rgb(109, 107, 107);
+  background-color: rgb(79, 85, 59);
   height: 60px;
+  border-radius: 10px;
+}
+.barra-tienda{
+  margin-left: 20px;
 }
 @media (max-width: 576px) {
   .navegacionTienda{
@@ -279,7 +283,6 @@ margin-right: 20px;
 }
 
 .barra-tienda {
-  font-family: 'Lemon', serif;
   color:white;
   text-decoration: underline;
   font-size: 25px;
@@ -287,13 +290,19 @@ margin-right: 20px;
 }
 .barra-tienda:hover{
   color: black;
-  padding: 2px;
 }
 .h4{
   font-family: 'Lemon', serif;
-  color: rgb(125, 123, 123);
-  font-size: 30px;
+  color: black;
+  font-size: 35px;
   text-align: center;
+  text-decoration: underline;
+}
+.h3{
+  font-family: 'Lemon', serif;
+  color: black;
+  font-size: 25px;
+  text-align: left;
   text-decoration: underline;
 }
 .precio{

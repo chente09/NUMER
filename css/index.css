@@ -348,3 +348,35 @@ margin-right: 20px;
 }
 
 /*CONTACTO*/
+.form_Contacto{
+  background-image: url(imagenes/fondo.jpg);
+  color: white;
+}
+label{
+  font-family: 'Lemon', serif; 
+}
+input{
+  font-family: 'Lemon', serif;
+}
+.btnRegistro{
+  background-color:rgb(79, 85, 59) ;
+  font-family: 'Lemon', serif; 
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+.btnRegistro:hover{
+  background-color: gray;
+}
+.efectoBoton:hover{
+  padding-right: 20px;
+}
+.warnings{
+  font-family: 'Lemon', serif; 
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 30px;
+}
